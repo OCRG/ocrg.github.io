@@ -14,6 +14,7 @@ const Header = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/docs/getting-started">Getting Started</Link></li>
             <li><Link to="/docs/api-reference">API Reference</Link></li>
+            <li><Link to="/docs/dev-best-practices">Dev Best Practices</Link></li>
             <li><Link to="/docs/contributing">Contributing</Link></li>
             <li><Link to="/about">About OCRG</Link></li>
             <li>

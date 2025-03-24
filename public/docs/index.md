@@ -13,6 +13,7 @@ Welcome to the OCRG documentation. This section contains detailed guides and ref
 1. [Getting Started](/docs/getting-started)
 2. [Project Overview](/docs/project-overview)
 3. [API Reference](/docs/api-reference)
+4. [Development Best Practices](/docs/dev-best-practices)
 
 ## Contributing
 

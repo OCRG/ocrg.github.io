@@ -27,6 +27,12 @@ const HomePage = () => {
         </div>
         
         <div className="feature-card">
+          <h2>Dev Best Practices</h2>
+          <p>Learn about our development workflow, Git practices, and deployment processes.</p>
+          <Link to="/docs/dev-best-practices" className="feature-link">Read more →</Link>
+        </div>
+        
+        <div className="feature-card">
           <h2>Contributing</h2>
           <p>Learn how to contribute to OCRG projects and make them even better.</p>
           <Link to="/docs/contributing" className="feature-link">Read more →</Link>

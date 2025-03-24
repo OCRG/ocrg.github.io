@@ -11,6 +11,7 @@ const DocumentationPage = () => {
     { name: 'Getting Started', slug: 'getting-started' },
     { name: 'API Reference', slug: 'api-reference' },
     { name: 'Contributing', slug: 'contributing' },
+    { name: 'Dev Best Practices', slug: 'dev-best-practices' },
     { name: 'Project Overview', slug: 'project-overview' },
   ];
 
