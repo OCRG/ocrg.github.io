@@ -2,7 +2,6 @@
 
 [![CI/CD](https://github.com/OCRG/ocrg.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/OCRG/ocrg.github.io/actions/workflows/deploy.yml)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/OCRG/ocrg.github.io?style=flat&cache=no)](https://github.com/OCRG/ocrg.github.io/releases)
-[![Release](https://img.shields.io/badge/Release-v0.0.2-blue.svg)](https://github.com/OCRG/ocrg.github.io/releases/tag/v0.0.2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/OCRG/ocrg.github.io)](https://github.com/OCRG/ocrg.github.io/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/OCRG/ocrg.github.io)](https://github.com/OCRG/ocrg.github.io/pulls)
