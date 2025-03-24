@@ -25,26 +25,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - None
 
-## [1.0.2] - 2024-03-24
-### Fixed
-- Fixed package-lock.json to match package.json dependencies
-
-## [1.0.1] - 2024-03-24
-### Fixed
-- GitHub Pages deployment issues by updating path configurations
-- Changed BrowserRouter to HashRouter for better GitHub Pages compatibility
-- Fixed relative path references for assets and scripts
-
-## [1.0.0] - 2024-03-24
+## [0.0.1] - 2024-03-24
 ### Changed
 - Migrated from Jekyll to Vite with React and TypeScript
-- Updated deployment workflow for Vite build process
+- Updated dependencies to ensure compatibility
 - Restructured documentation site architecture
+- Changed BrowserRouter to HashRouter for better GitHub Pages compatibility
+- Updated path configurations for GitHub Pages deployment
+
+### Fixed
+- GitHub Pages deployment issues by updating path configurations
+- Package version compatibility issues
 
 ### Added
 - React components structure for modern UI
 - TypeScript support for type safety
-- Improved developer experience with hot module reloading
-
-## [0.1.0] - 2024-03-23
-- Initial release with Jekyll 
+- Improved developer experience with hot module reloading 
