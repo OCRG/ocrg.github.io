@@ -25,6 +25,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - None
 
+## [1.0.2] - 2024-03-24
+### Fixed
+- Fixed package-lock.json to match package.json dependencies
+
 ## [1.0.1] - 2024-03-24
 ### Fixed
 - GitHub Pages deployment issues by updating path configurations
