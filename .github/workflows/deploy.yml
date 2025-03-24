@@ -27,10 +27,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
       
-      - name: Install dependencies
-        run: npm ci
+      - name: Clean npm cache
+        run: npm cache clean --force
+      
+      - name: Clean and reinstall
+        run: |
+          rm -rf node_modules
+          rm -f package-lock.json
+          npm install --no-optional
+      
+      - name: Install Rollup dependencies
+        run: npm install @rollup/rollup-linux-x64-gnu
       
       - name: Build site
         run: npm run build

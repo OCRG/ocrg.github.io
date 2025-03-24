@@ -9,6 +9,8 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
+    // Adjust for CI environments
+    chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
         manualChunks: {
@@ -17,5 +19,9 @@ export default defineConfig({
         }
       }
     }
+  },
+  // Add optimizeDeps for better dependency handling
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react-router-dom']
   }
 })
