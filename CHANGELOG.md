@@ -8,11 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Initial documentation site setup
-- Basic documentation structure
-- GitHub Actions workflow for automated deployment
-- Contributing guidelines
-- Project templates and placeholders
+- None
 
 ### Changed
 - None
@@ -29,5 +25,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - None
 
+## [2.0.0] - 2024-03-24
+### Changed
+- Migrated from Jekyll to Vite with React and TypeScript
+- Updated deployment workflow for Vite build process
+- Restructured documentation site architecture
+
+### Added
+- React components structure for modern UI
+- TypeScript support for type safety
+- Improved developer experience with hot module reloading
+
 ## [1.0.0] - 2024-03-23
-- Initial release 
+- Initial release with Jekyll 

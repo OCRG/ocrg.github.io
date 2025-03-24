@@ -6,30 +6,36 @@
 [![GitHub issues](https://img.shields.io/github/issues/OCRG/ocrg.github.io)](https://github.com/OCRG/ocrg.github.io/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/OCRG/ocrg.github.io)](https://github.com/OCRG/ocrg.github.io/pulls)
 
-This repository contains the documentation for OCRG projects, hosted on GitHub Pages.
+This repository contains the documentation for OCRG projects, hosted on GitHub Pages. 
+The site is built with Vite and React with TypeScript.
 
 ## Local Development
 
 To run the documentation site locally:
 
-1. Install Ruby and Bundler:
-   ```bash
-   # On macOS with Homebrew
-   brew install ruby
-   gem install bundler
-   ```
+1. Install Node.js and npm (recommended Node.js version 18+)
 
 2. Install dependencies:
    ```bash
-   bundle install
+   npm install
    ```
 
 3. Run the development server:
    ```bash
-   bundle exec jekyll serve
+   npm run dev
    ```
 
-4. Visit `http://localhost:4000` in your browser
+4. Visit `http://localhost:5173` in your browser
+
+## Building for Production
+
+To build the site for production:
+
+```bash
+npm run build
+```
+
+The built site will be in the `dist` directory.
 
 ## Contributing
 
@@ -53,9 +59,12 @@ We follow semantic versioning for our releases. Each release is tagged with a ve
 To create a new release:
 
 1. Update version numbers in relevant files
-2. Create a new tag:
+2. Update the CHANGELOG.md
+3. Create a new tag:
    ```bash
    git tag -a v1.0.0 -m "Release version 1.0.0"
    git push origin v1.0.0
    ```
-3. Create a new release on GitHub with release notes 
+4. Create a new release on GitHub with release notes
+
+For more detailed information on the release process, see [RELEASING.md](RELEASING.md).

@@ -15,6 +15,7 @@ This document outlines the process for creating new releases of the OCRG documen
   - MAJOR version for incompatible API changes
   - MINOR version for backwards-compatible functionality additions
   - PATCH version for backwards-compatible bug fixes
+- [ ] Update the version in `package.json` file
 
 ### 3. Create Release
 1. Update CHANGELOG.md:
@@ -28,7 +29,7 @@ This document outlines the process for creating new releases of the OCRG documen
 
 2. Create and push the tag:
    ```bash
-   git add CHANGELOG.md
+   git add CHANGELOG.md package.json
    git commit -m "Prepare for release v1.0.1"
    git tag -a v1.0.1 -m "Release version 1.0.1"
    git push origin main --tags
