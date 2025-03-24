@@ -11,8 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - None
 
 ### Changed
-- Improved GitHub Actions workflow for better CI/CD compatibility
-- Enhanced Vite configuration for CI environments
+- None
 
 ### Deprecated
 - None
@@ -21,11 +20,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - None
 
 ### Fixed
-- Addressed Rollup dependency issues in GitHub Actions
-- Fixed build failures related to optional native dependencies
+- None
 
 ### Security
 - None
+
+## [0.0.2] - 2024-03-24
+### Changed
+- Improved GitHub Actions workflow for better CI/CD compatibility
+- Enhanced Vite configuration for CI environments
+
+### Fixed
+- Addressed Rollup dependency issues in GitHub Actions
+- Fixed build failures related to optional native dependencies
 
 ## [0.0.1] - 2024-03-24
 ### Changed
