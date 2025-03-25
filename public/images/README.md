@@ -9,7 +9,7 @@ This directory contains important image assets for the OCRG documentation site:
 - Ideal characteristics: Simple, recognizable at small sizes
 - Replace this placeholder with your actual icon
 
-## 2. orcg-banner-revised.png
+## 2. orcg-banner-030.png
 - Purpose: Social media banner/unfurl image when links are shared
 - Recommended size: 1200×630 pixels (optimal for most platforms)
 - Optimal format: PNG or JPG (PNG preferred if it includes text/logos)

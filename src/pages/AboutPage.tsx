@@ -6,7 +6,7 @@ const AboutPage = () => {
       <h1>About OCRG</h1>
       
       <div className="logo-container">
-        <img src="./images/orcg-banner-revised.png" alt="OCRG Logo" className="logo" />
+        <img src="./images/orcg-banner-030.png" alt="OCRG Logo" className="logo" />
       </div>
       
       <section className="mission-section">
