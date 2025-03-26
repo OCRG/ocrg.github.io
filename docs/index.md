@@ -4,7 +4,7 @@ hide:
   - navigation
 ---
 
-# THIS PAGE IS A WORK IN PROGRESS AND IS NOT ACCURATE AND IS A TEMPLATE
+# THIS PAGE IS A WORK IN PROGRESS
 
 <div align="center">
   <img src="assets/images/ocrg-banner-060.png" alt="OCRG Banner" class="banner" />
