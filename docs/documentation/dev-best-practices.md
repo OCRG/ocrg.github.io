@@ -32,8 +32,28 @@ We follow a trunk-based development workflow, which means:
 1. **Main Branch**: The `main` branch is the primary branch and is always deployable.
 2. **Feature Branches**: Create a feature branch for each new feature or bug fix:
    ```bash
+   # Create and switch to a new branch
    git checkout -b feature/descriptive-feature-name
+
+   # Switch to an existing branch
+   git checkout branch-name
+
+   # List all branches
+   git branch
+
+   # List all branches including remote
+   git branch -a
+
+   # Push a new branch to GitHub
+   git push -u origin branch-name
+
+   # Update your branch with latest main
+   git checkout main
+   git pull
+   git checkout your-branch
+   git merge main
    ```
+
 3. **Naming Conventions**: Use prefixes for branch names:
    - `feature/` for new features
    - `bugfix/` for bug fixes
@@ -76,18 +96,42 @@ Fix release badge in README
 
 ### Pull Request Workflow
 
-1. **Create Feature Branch** from main
+1. **Create Feature Branch** from main:
+   ```bash
+   # Create and switch to new branch
+   git checkout -b feature/your-feature
+   
+   # Push to GitHub
+   git push -u origin feature/your-feature
+   ```
+
 2. **Make Changes** with good commits
-3. **Push Branch** to the remote repository
+3. **Push Branch** to the remote repository:
+   ```bash
+   git push origin feature/your-feature
+   ```
 4. **Create Pull Request** with a clear description:
    - What changes were made
    - Why they were made
    - How to test them
    - Any related issues
 5. **Code Review** by at least one other team member
-6. **Address Feedback** if any changes are requested
+6. **Address Feedback** if any changes are requested:
+   ```bash
+   # Make changes locally
+   git add .
+   git commit -m "Address review feedback"
+   git push origin feature/your-feature
+   ```
 7. **Merge** the PR using the "Merge" strategy (or "Squash and Merge" for cleanup)
-8. **Delete the Branch** after merging
+8. **Delete the Branch** after merging:
+   ```bash
+   # Delete local branch
+   git branch -d feature/your-feature
+   
+   # Delete remote branch
+   git push origin --delete feature/your-feature
+   ```
 
 ### Code Review Guidelines
 

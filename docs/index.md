@@ -7,7 +7,7 @@ hide:
 # Ozark Cybersecurity Research Group<span class="terminal-cursor"></span>
 
 <div align="center">
-  <img src="assets/images/ocrg-banner-040.png" alt="OCRG Banner" class="banner" />
+  <img src="assets/images/ocrg-banner-050.png" alt="OCRG Banner" class="banner" />
 </div>
 
 <div class="hero">
