@@ -5,4 +5,29 @@
   🧅 Use <a href="https://www.torproject.org/download/" target="_blank">Tor Browser</a> for greater anonymity.
 </div>
 {{ super() }}
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabbedBlocks = document.querySelectorAll('.tabbed-set');
+    tabbedBlocks.forEach(function(block) {
+      const labels = block.querySelectorAll('.tabbed-labels');
+      if (labels.length === 0) {
+        const tabs = block.querySelectorAll('input[type="radio"]');
+        const labelContainer = document.createElement('div');
+        labelContainer.className = 'tabbed-labels';
+        tabs.forEach(function(tab) {
+          const label = document.createElement('label');
+          label.className = 'tabbed-label';
+          label.setAttribute('for', tab.id);
+          label.textContent = tab.getAttribute('data-title');
+          labelContainer.appendChild(label);
+        });
+        block.insertBefore(labelContainer, block.firstChild);
+      }
+    });
+  });
+</script>
 {% endblock %} 
