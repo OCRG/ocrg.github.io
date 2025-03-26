@@ -29,6 +29,7 @@ theme:
   favicon: assets/images/ocrg-icon-040.png
   icon:
     repo: fontawesome/brands/github
+  custom_dir: docs/overrides
 
 extra:
   social:
@@ -77,3 +78,4 @@ plugins:
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/banner.css

@@ -1,0 +1,35 @@
+/* Global banner styling */
+.md-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 32px;
+    background-color: #14151a;
+    color: var(--ocrg-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    z-index: 1;
+}
+
+/* Adjust main content and header to account for banner */
+.md-header {
+    top: 32px !important;
+}
+
+.md-main {
+    margin-top: 32px;
+}
+
+/* Style the Tor Browser link */
+.md-banner a {
+    color: var(--ocrg-blue);
+    text-decoration: underline;
+    margin: 0 4px;
+}
+
+.md-banner a:hover {
+    color: rgba(255, 255, 255, 0.8);
+} 
