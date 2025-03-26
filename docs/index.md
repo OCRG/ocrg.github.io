@@ -4,7 +4,7 @@ hide:
   - navigation
 ---
 
-# THIS PAGE IS A WORK IN PROGRESS AND IS NOT ACCURATE AND IS A TEMPLATE
+# THIS PAGE IS A WORK IN PROGRESS
 
 <div align="center">
   <img src="assets/images/ocrg-banner-060.png" alt="OCRG Banner" class="banner" />
@@ -82,7 +82,6 @@ drwxr-xr-x  2 ocrg staff  4096 Mar 25 2025 steganalysis/
 ## Technical Demonstrations
 
 === "Terminal Commands"
-
     ```bash
     $ ocrg-scan --target 192.168.1.0/24 --passive
     [*] Initiating passive scan of network
@@ -92,7 +91,6 @@ drwxr-xr-x  2 ocrg staff  4096 Mar 25 2025 steganalysis/
     ```
 
 === "Python Example"
-
     ```python
     from ocrg.scanner import NetworkScanner
     
@@ -109,7 +107,6 @@ drwxr-xr-x  2 ocrg staff  4096 Mar 25 2025 steganalysis/
     ```
 
 === "Research Data"
-
     ```json
     {
       "vulnerability_trends": {

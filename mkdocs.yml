@@ -32,6 +32,9 @@ theme:
   custom_dir: docs/overrides
 
 extra:
+  analytics:
+    provider: google
+    property: GTM-5SD7PB52
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/OCRG
