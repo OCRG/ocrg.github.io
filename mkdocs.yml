@@ -78,9 +78,6 @@ nav:
 plugins:
   - search
   - social
-  - analytics:
-      provider: google
-      property: GTM-5SD7PB52
 
 extra_css:
   - assets/stylesheets/extra.css
