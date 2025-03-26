@@ -150,4 +150,291 @@
   .hero p {
     font-size: 1rem;
   }
+}
+
+:root {
+  /* Custom terminal theme colors */
+  --ocrg-background: #121212;
+  --ocrg-terminal-black: #0c0c0c;
+  --ocrg-terminal-border: #2a2a2a;
+  --ocrg-text: #f0f0f0;
+  --ocrg-blue: #44A7FB;
+  --ocrg-purple: #BA46FB;
+  --ocrg-red: #FA4646;
+  --ocrg-green: #23d18b;
+  --ocrg-cursor: rgba(255, 255, 255, 0.5);
+}
+
+/* Override theme colors with terminal aesthetic */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: var(--ocrg-background);
+  --md-default-fg-color: var(--ocrg-text);
+  --md-default-fg-color--light: var(--ocrg-text);
+  --md-default-fg-color--dark: var(--ocrg-text);
+  --md-primary-fg-color: var(--ocrg-terminal-black);
+  --md-primary-fg-color--light: var(--ocrg-text);
+  --md-primary-fg-color--dark: var(--ocrg-terminal-black);
+  --md-primary-bg-color: var(--ocrg-text);
+  --md-primary-bg-color--light: var(--ocrg-text);
+  --md-typeset-a-color: var(--ocrg-blue);
+  --md-accent-fg-color: var(--ocrg-purple);
+  --md-accent-bg-color: var(--ocrg-purple);
+  --md-accent-bg-color--light: var(--ocrg-purple);
+  
+  /* Code block colors */
+  --md-code-bg-color: var(--ocrg-terminal-black);
+  --md-code-fg-color: var(--ocrg-text);
+}
+
+/* Terminal-style elements */
+.md-content {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.md-header {
+  background-color: var(--ocrg-terminal-black);
+  border-bottom: 1px solid var(--ocrg-terminal-border);
+}
+
+.md-header__title {
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.md-header__source {
+  background-color: var(--ocrg-terminal-black);
+}
+
+.md-nav {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.md-nav__link:focus, .md-nav__link:hover {
+  color: var(--ocrg-purple);
+}
+
+.md-nav__item--active > .md-nav__link {
+  color: var(--ocrg-blue);
+}
+
+/* Buttons */
+.md-button {
+  border: 1px solid var(--ocrg-terminal-border);
+  background-color: var(--ocrg-terminal-black);
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.md-button:focus, .md-button:hover {
+  background-color: var(--ocrg-purple);
+  color: var(--ocrg-text);
+  border-color: var(--ocrg-purple);
+}
+
+.md-button--primary {
+  background-color: var(--ocrg-blue);
+  border-color: var(--ocrg-blue);
+}
+
+.md-button--primary:focus, .md-button--primary:hover {
+  background-color: var(--ocrg-purple);
+  border-color: var(--ocrg-purple);
+}
+
+/* Admonitions for color-coded sections */
+.md-typeset .admonition.purple, 
+.md-typeset details.purple {
+  border-color: var(--ocrg-purple);
+}
+
+.md-typeset .purple > .admonition-title, 
+.md-typeset .purple > summary {
+  background-color: rgba(186, 70, 251, 0.1);
+}
+
+.md-typeset .purple > .admonition-title::before, 
+.md-typeset .purple > summary::before {
+  background-color: var(--ocrg-purple);
+}
+
+.md-typeset .admonition.blue, 
+.md-typeset details.blue {
+  border-color: var(--ocrg-blue);
+}
+
+.md-typeset .blue > .admonition-title, 
+.md-typeset .blue > summary {
+  background-color: rgba(68, 167, 251, 0.1);
+}
+
+.md-typeset .blue > .admonition-title::before, 
+.md-typeset .blue > summary::before {
+  background-color: var(--ocrg-blue);
+}
+
+.md-typeset .admonition.red, 
+.md-typeset details.red {
+  border-color: var(--ocrg-red);
+}
+
+.md-typeset .red > .admonition-title, 
+.md-typeset .red > summary {
+  background-color: rgba(250, 70, 70, 0.1);
+}
+
+.md-typeset .red > .admonition-title::before, 
+.md-typeset .red > summary::before {
+  background-color: var(--ocrg-red);
+}
+
+/* Terminal-like code blocks */
+.md-typeset pre > code {
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  border: 1px solid var(--ocrg-terminal-border);
+}
+
+.md-typeset code {
+  border-radius: 2px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Terminal prompt effect for blockquotes */
+.md-typeset blockquote {
+  border-left: 4px solid var(--ocrg-purple);
+  color: var(--ocrg-text);
+}
+
+.md-typeset blockquote p::before {
+  content: "$ ";
+  color: var(--ocrg-green);
+  font-weight: bold;
+}
+
+/* Placeholder image frames */
+.placeholder-image {
+  background-color: var(--ocrg-terminal-black);
+  border: 1px dashed var(--ocrg-terminal-border);
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  color: var(--ocrg-text);
+  position: relative;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.placeholder-image::before {
+  content: "⚙️";
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.placeholder-image.blue {
+  border-color: var(--ocrg-blue);
+}
+
+.placeholder-image.blue::before {
+  color: var(--ocrg-blue);
+}
+
+.placeholder-image.purple {
+  border-color: var(--ocrg-purple);
+}
+
+.placeholder-image.purple::before {
+  content: "🔮";
+  color: var(--ocrg-purple);
+}
+
+.placeholder-image.red {
+  border-color: var(--ocrg-red);
+}
+
+.placeholder-image.red::before {
+  content: "🔥";
+  color: var(--ocrg-red);
+}
+
+/* Terminal cursor animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.terminal-cursor::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 16px;
+  background-color: var(--ocrg-text);
+  margin-left: 4px;
+  animation: blink 1s step-end infinite;
+}
+
+/* Footer terminal style */
+.md-footer {
+  background-color: var(--ocrg-terminal-black);
+  border-top: 1px solid var(--ocrg-terminal-border);
+}
+
+/* Make tables fit the terminal theme */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--ocrg-terminal-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--ocrg-terminal-black);
+  border-bottom: 1px solid var(--ocrg-terminal-border);
+  color: var(--ocrg-text);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Tabs with terminal styling */
+.md-tabs {
+  background-color: var(--ocrg-terminal-black);
+  border-bottom: 1px solid var(--ocrg-terminal-border);
+}
+
+.md-tabs__link--active {
+  color: var(--ocrg-purple);
+}
+
+.md-tabs__link:hover {
+  color: var(--ocrg-blue);
+}
+
+/* Custom animation for hero sections */
+.hero {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.hero h1 {
+  position: relative;
+  display: inline-block;
+}
+
+.hero h1::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 24px;
+  background-color: var(--ocrg-cursor);
+  animation: blink 1s step-end infinite;
+  position: relative;
+  top: 4px;
+  margin-left: 8px;
 } 
