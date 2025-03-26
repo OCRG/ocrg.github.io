@@ -4,16 +4,17 @@ hide:
   - navigation
 ---
 
-# Ozark Cybersecurity Research Group<span class="terminal-cursor"></span>
 
 <div align="center">
-  <img src="assets/images/ocrg-banner-050.png" alt="OCRG Banner" class="banner" />
+  <img src="assets/images/ocrg-banner-060.png" alt="OCRG Banner" class="banner" />
 </div>
 
-<div class="hero">
+# Ozark Cybersecurity Research Group
+
+<!-- <div class="hero">
   <h1>OCRG_Terminal v1.0</h1>
   <p>Advancing cybersecurity through innovative research and secure techniques</p>
-</div>
+</div> -->
 
 ```bash
 $ whoami

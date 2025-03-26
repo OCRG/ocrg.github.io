@@ -5,7 +5,7 @@ title: About Us
 # About OCRG
 
 <div align="center">
-  <img src="../assets/images/ocrg-banner-050.png" alt="OCRG Banner" class="banner" style="max-width: 800px;" />
+  <img src="../assets/images/ocrg-banner-060.png" alt="OCRG Banner" class="banner" style="max-width: 800px;" />
 </div>
 
 ## Our Organization
