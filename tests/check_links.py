@@ -148,17 +148,11 @@ def main():
         print(f"Error: {docs_dir} is not a valid directory")
         return 1
     
-    print(f"Checking links in {docs_dir}")
-    broken_links = check_links_in_directory(docs_dir)
+    # Call check_links_in_directory and get the success status
+    success = check_links_in_directory(docs_dir)
     
-    if broken_links:
-        print("\nBroken links found:")
-        for file_path, link, message in broken_links:
-            print(f"{file_path}: {link} - {message}")
-        return 1
-    
-    print("\nAll links are working!")
-    return 0
+    # Return exit code based on success status
+    return 0 if success else 1
 
 if __name__ == '__main__':
     sys.exit(main()) 
