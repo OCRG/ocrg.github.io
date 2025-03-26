@@ -775,10 +775,33 @@
 <h3 id="branching-strategy">Branching Strategy</h3>
 <ol>
 <li><strong>Main Branch</strong>: The <code>main</code> branch is the primary branch and is always deployable.</li>
-<li><strong>Feature Branches</strong>: Create a feature branch for each new feature or bug fix:
-   <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature/descriptive-feature-name
-</code></pre></div></li>
-<li><strong>Naming Conventions</strong>: Use prefixes for branch names:</li>
+<li>
+<p><strong>Feature Branches</strong>: Create a feature branch for each new feature or bug fix:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Create and switch to a new branch</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature/descriptive-feature-name
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># Switch to an existing branch</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>git<span class="w"> </span>checkout<span class="w"> </span>branch-name
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1"># List all branches</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>git<span class="w"> </span>branch
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="c1"># List all branches including remote</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>git<span class="w"> </span>branch<span class="w"> </span>-a
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="c1"># Push a new branch to GitHub</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>branch-name
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="c1"># Update your branch with latest main</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>git<span class="w"> </span>checkout<span class="w"> </span>main
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>git<span class="w"> </span>pull
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>git<span class="w"> </span>checkout<span class="w"> </span>your-branch
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>git<span class="w"> </span>merge<span class="w"> </span>main
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Naming Conventions</strong>: Use prefixes for branch names:</p>
+</li>
 <li><code>feature/</code> for new features</li>
 <li><code>bugfix/</code> for bug fixes</li>
 <li><code>hotfix/</code> for urgent production fixes</li>
@@ -813,18 +836,41 @@
 </code></pre></div></p>
 <h3 id="pull-request-workflow">Pull Request Workflow</h3>
 <ol>
-<li><strong>Create Feature Branch</strong> from main</li>
-<li><strong>Make Changes</strong> with good commits</li>
-<li><strong>Push Branch</strong> to the remote repository</li>
+<li>
+<p><strong>Create Feature Branch</strong> from main:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># Create and switch to new branch</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature/your-feature
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># Push to GitHub</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>feature/your-feature
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Make Changes</strong> with good commits</p>
+</li>
+<li><strong>Push Branch</strong> to the remote repository:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>feature/your-feature
+</code></pre></div></li>
 <li><strong>Create Pull Request</strong> with a clear description:</li>
 <li>What changes were made</li>
 <li>Why they were made</li>
 <li>How to test them</li>
 <li>Any related issues</li>
 <li><strong>Code Review</strong> by at least one other team member</li>
-<li><strong>Address Feedback</strong> if any changes are requested</li>
+<li><strong>Address Feedback</strong> if any changes are requested:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># Make changes locally</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>git<span class="w"> </span>add<span class="w"> </span>.
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Address review feedback&quot;</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>feature/your-feature
+</code></pre></div></li>
 <li><strong>Merge</strong> the PR using the "Merge" strategy (or "Squash and Merge" for cleanup)</li>
-<li><strong>Delete the Branch</strong> after merging</li>
+<li><strong>Delete the Branch</strong> after merging:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># Delete local branch</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>git<span class="w"> </span>branch<span class="w"> </span>-d<span class="w"> </span>feature/your-feature
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="c1"># Delete remote branch</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>--delete<span class="w"> </span>feature/your-feature
+</code></pre></div></li>
 </ol>
 <h3 id="code-review-guidelines">Code Review Guidelines</h3>
 <ul>
@@ -849,8 +895,8 @@
 <li><strong>Semantic Versioning</strong>: We follow semantic versioning (MAJOR.MINOR.PATCH)</li>
 <li><strong>Changelog</strong>: Update the CHANGELOG.md file with all notable changes</li>
 <li><strong>Tags</strong>: Create a Git tag for each release:
-   <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git<span class="w"> </span>tag<span class="w"> </span>-a<span class="w"> </span>v1.0.0<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Release version 1.0.0&quot;</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>v1.0.0
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git<span class="w"> </span>tag<span class="w"> </span>-a<span class="w"> </span>v1.0.0<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Release version 1.0.0&quot;</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>v1.0.0
 </code></pre></div></li>
 <li><strong>Release Notes</strong>: Create detailed release notes on GitHub</li>
 </ol>
