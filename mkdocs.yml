@@ -63,6 +63,7 @@ nav:
 
 plugins:
   - search
+  - social
 
 extra_css:
   - assets/stylesheets/extra.css
