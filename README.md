@@ -1,70 +1,68 @@
 # OCRG Documentation
 
-[![CI/CD](https://github.com/OCRG/ocrg.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/OCRG/ocrg.github.io/actions/workflows/deploy.yml)
+[![Deploy MkDocs to GitHub Pages](https://github.com/OCRG/ocrg.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/OCRG/ocrg.github.io/actions/workflows/deploy.yml)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/OCRG/ocrg.github.io?style=flat&cache=no)](https://github.com/OCRG/ocrg.github.io/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/OCRG/ocrg.github.io)](https://github.com/OCRG/ocrg.github.io/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/OCRG/ocrg.github.io)](https://github.com/OCRG/ocrg.github.io/pulls)
 
-This repository contains the documentation for OCRG projects, hosted on GitHub Pages. 
-The site is built with Vite and React with TypeScript.
+This repository contains the source code for the [OCRG Documentation](https://ocrg.github.io/) website built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
+
+## Features
+
+- Responsive design for all devices
+- Modern UI with Material Design principles
+- Search functionality
+- Comprehensive documentation and information about OCRG
 
 ## Local Development
 
-To run the documentation site locally:
+### Prerequisites
 
-1. Install Node.js and npm (recommended Node.js version 18+)
+- Python 3.8 or higher
+- pip (Python package manager)
+
+### Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/OCRG/ocrg.github.io.git
+   cd ocrg.github.io
+   ```
 
 2. Install dependencies:
    ```bash
-   npm install
+   pip install mkdocs mkdocs-material
    ```
 
-3. Run the development server:
+3. Start the development server:
    ```bash
-   npm run dev
+   mkdocs serve
    ```
 
-4. Visit `http://localhost:5173` in your browser
+4. Open your browser and visit [http://localhost:8000](http://localhost:8000)
 
-## Building for Production
+## Project Structure
 
-To build the site for production:
-
-```bash
-npm run build
+```
+mkdocs.yml          # The configuration file
+docs/               # Documentation source files
+├── index.md        # Homepage
+├── about.md        # About page
+├── contact.md      # Contact information
+├── research/       # Research documentation
+├── documentation/  # Usage documentation
+└── assets/         # Images, CSS, and other assets
 ```
 
-The built site will be in the `dist` directory.
+## Deployment
+
+The site is automatically deployed to GitHub Pages when changes are pushed to the main branch using GitHub Actions.
 
 ## Contributing
 
-1. Fork the repository
-2. Create a new branch for your changes
-3. Make your changes
-4. Submit a pull request
+Please read our [Contributing Guide](https://ocrg.github.io/documentation/contributing/) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
-This documentation is licensed under the MIT License - see the LICENSE file for details.
-
-## Releases
-
-We follow semantic versioning for our releases. Each release is tagged with a version number (e.g., v1.0.0) and includes:
-
-- Release notes
-- Changelog
-- Documentation updates
-
-To create a new release:
-
-1. Update version numbers in relevant files
-2. Update the CHANGELOG.md
-3. Create a new tag:
-   ```bash
-   git tag -a v1.0.0 -m "Release version 1.0.0"
-   git push origin v1.0.0
-   ```
-4. Create a new release on GitHub with release notes
-
-For more detailed information on the release process, see [RELEASING.md](RELEASING.md).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
