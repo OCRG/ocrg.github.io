@@ -4,10 +4,6 @@ title: About Us
 
 # About OCRG
 
-<div align="center">
-  <img src="../assets/images/ocrg-banner-060.png" alt="OCRG Banner" class="banner" style="max-width: 800px;" />
-</div>
-
 ## Our Organization
 
 The **Ozark Cybersecurity Research Group (OCRG)** is a non-profit organization focused on advancing the field of cybersecurity through cutting-edge research and open-source collaborations. Founded with a vision to enhance digital security through innovative approaches to threat detection and analysis, OCRG brings together researchers, professionals, and enthusiasts passionate about cybersecurity.

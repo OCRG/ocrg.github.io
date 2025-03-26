@@ -9,7 +9,7 @@ hide:
   <img src="assets/images/ocrg-banner-060.png" alt="OCRG Banner" class="banner" />
 </div>
 
-# Ozark Cybersecurity Research Group
+<!-- # Ozark Cybersecurity Research Group -->
 
 <!-- <div class="hero">
   <h1>OCRG_Terminal v1.0</h1>
@@ -60,15 +60,15 @@ drwxr-xr-x  2 ocrg staff  4096 Mar 25 2025 steganalysis/
 ## Latest Updates
 
 !!! blue "New Tool Release"
-    Our team has released CryptoDetect v2.1, enhancing capabilities for detecting cryptographic implementations in binary files.
+    Our team has released ___, enhancing capabilities for ___ ___ ___.
     [Check it out :fontawesome-solid-download:](#)
 
-!!! purple "Purple Team Exercise"
-    Registration now open for our annual Purple Team Exercise event happening in May.
+!!! purple "___ ___ Exercise"
+    Registration now open for our annual ___ event happening in May.
     [Register now :fontawesome-solid-user-plus:](#)
 
 !!! red "Security Alert"
-    Critical vulnerability in common libraries. See our advisory for mitigation steps.
+    Critical vulnerability in ___. See our advisory for mitigation steps.
     [Read advisory :fontawesome-solid-triangle-exclamation:](#)
 
 ## Featured Project
