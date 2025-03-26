@@ -5,3 +5,9 @@ Markdown==3.7
 pymdown-extensions==10.14.3
 cairosvg>=2.5
 pillow>=9.0 
+
+# Test dependencies
+pytest==8.0.0
+pytest-cov==4.1.0
+requests==2.31.0
+pyyaml==6.0.1 
