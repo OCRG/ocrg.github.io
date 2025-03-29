@@ -69,11 +69,13 @@ nav:
     - Overview: research/index.md
     - Steganalysis: research/steganalysis.md
     - Threat Detection: research/threat-detection.md
+  - Projects: projects/index.md
   - Documentation:
     - Getting Started: documentation/getting-started.md
     - Dev Best Practices: documentation/dev-best-practices.md
     - Contributing: documentation/contributing.md
   - Contact: contact.md
+  - Donate: donate.md
 
 plugins:
   - search

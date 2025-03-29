@@ -4,7 +4,7 @@ title: Contact Us
 
 # Contact OCRG
 
-We welcome inquiries, collaboration proposals, and general questions about our research and projects. Here's how you can reach us:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## General Inquiries
 
@@ -14,36 +14,32 @@ For general questions, information requests, or to learn more about our organiza
 
 ## Join Our Community
 
-The best way to connect with our team and community is through our Discord server:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://discord.gg/6SDUxJzSdr" class="btn btn-primary">Join our Discord</a>
+  <a href="https://discord.gg/6SDUxJzSdr" class="md-button md-button--primary">Join our Discord</a>
 </div>
-
-Our Discord community is the hub for discussions, announcements, and collaboration on our various projects.
 
 ## GitHub
 
-You can find our projects, contribute to our code, and follow our development work on GitHub:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://github.com/OCRG" class="btn btn-primary">OCRG on GitHub</a>
+  <a href="https://github.com/OCRG" class="md-button md-button--primary">OCRG on GitHub</a>
 </div>
 
 ## Collaboration Opportunities
 
-We're always open to collaborations with:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:
 
-- **Researchers** in cybersecurity, machine learning, and related fields
-- **Organizations** interested in applying our research
-- **Contributors** who want to help with our open-source projects
-- **Students** looking for research opportunities
-
-If you're interested in working with us, please email us with details about your background and interests.
+- **Category 1:** Lorem ipsum dolor sit amet
+- **Category 2:** Consectetur adipiscing elit
+- **Category 3:** Ut enim ad minim veniam
+- **Category 4:** Quis nostrud exercitation
 
 ## Connect with Leadership
 
-If you need to reach out to our founder directly:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:
 
 **Brad Jackson**  
 *Founder & Lead Researcher*  
@@ -52,5 +48,7 @@ If you need to reach out to our founder directly:
 - **Website:** [brad-jackson.com](https://brad-jackson.com)
 
 ---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 We aim to respond to all inquiries within 2-3 business days. Thank you for your interest in OCRG! 

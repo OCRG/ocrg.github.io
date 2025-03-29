@@ -4,35 +4,40 @@ title: About Us
 
 # About OCRG
 
+<div class="hero about">
+  <h1>Our Organization</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+
 ## Our Organization
 
-The **Ozark Cybersecurity Research Group (OCRG)** is a non-profit organization focused on advancing the field of cybersecurity through cutting-edge research and open-source collaborations. Founded with a vision to enhance digital security through innovative approaches to threat detection and analysis, OCRG brings together researchers, professionals, and enthusiasts passionate about cybersecurity.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Vision & Mission
 
-**Vision:** A digital world where advanced cybersecurity techniques are accessible to all, ensuring a safer online environment through collaborative research and open innovation.
+**Vision:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
 
-**Mission:** To advance cybersecurity through innovative research in threat detection and security techniques, leveraging cutting-edge machine learning and AI methodologies to design robust systems for identifying hidden threats and mitigating cyber risks.
+**Mission:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Our Approach
 
-At OCRG, we believe that the future of cybersecurity lies at the intersection of traditional security approaches and advanced computational techniques:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:
 
-- **Self-Supervised Learning:** Developing models that can learn from unlabeled data, reducing the need for extensive manual annotation.
-- **Contrastive Learning:** Using techniques that help models understand similarities and differences between data points to better detect anomalies.
-- **Cross-Domain Adaptability:** Creating frameworks that work effectively across different types of data and threat scenarios.
-- **Open Collaboration:** Sharing our research, tools, and findings with the broader community to foster innovation and improvement.
+- **Approach 1:** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- **Approach 2:** Ut enim ad minim veniam, quis nostrud exercitation.
+- **Approach 3:** Duis aute irure dolor in reprehenderit in voluptate.
+- **Approach 4:** Excepteur sint occaecat cupidatat non proident.
 
 ## Current Focus Areas
 
-### Advanced Steganalysis
-We're researching self-supervised contrastive learning approaches for detecting hidden data in digital media. Our focus is on developing techniques that are invariant across diverse cover sources, making detection more robust against sophisticated hiding methods.
+### Focus Area 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### Threat Detection Frameworks
-We're building adaptive AI frameworks for real-time detection and analysis of emerging cyber threats. These frameworks aim to identify patterns and anomalies that might indicate potential security breaches or vulnerabilities.
+### Focus Area 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### Open-Source Security Tools
-We're developing and contributing to open-source tools that help organizations and individuals better protect their digital assets and information.
+### Focus Area 3
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Leadership
 
@@ -41,7 +46,7 @@ We're developing and contributing to open-source tools that help organizations a
     <div class="team-card-content">
       <h3>Brad Jackson</h3>
       <p><strong>Founder & Lead Researcher</strong></p>
-      <p>Brad is a Senior ML & Cybersecurity Professional with expertise in developing advanced threat detection systems using machine learning techniques.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="social-links">
         <a href="https://linkedin.com/in/bradley-jackson-a73a92191" target="_blank">LinkedIn</a> | 
         <a href="https://github.com/iron-hope-shop" target="_blank">GitHub</a> | 
@@ -53,16 +58,16 @@ We're developing and contributing to open-source tools that help organizations a
 
 ## Join Our Community
 
-OCRG is built on the principle of collaborative research and community-driven innovation. We welcome contributions from:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:
 
-- **Cybersecurity Researchers**
-- **ML/AI Specialists**
-- **Software Developers**
-- **Cybersecurity Enthusiasts**
-- **Students and Educators**
+- **Role 1:** Lorem ipsum dolor sit amet
+- **Role 2:** Consectetur adipiscing elit
+- **Role 3:** Ut enim ad minim veniam
+- **Role 4:** Quis nostrud exercitation
+- **Role 5:** Duis aute irure dolor
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://github.com/OCRG" class="btn btn-primary">GitHub</a>
-  <a href="https://discord.gg/6SDUxJzSdr" class="btn btn-primary">Join our Discord</a>
-  <a href="../contact/" class="btn btn-outline">Contact Us</a>
+  <a href="https://github.com/OCRG" class="md-button md-button--primary">GitHub</a>
+  <a href="https://discord.gg/6SDUxJzSdr" class="md-button md-button--primary">Join our Discord</a>
+  <a href="../contact/" class="md-button">Contact Us</a>
 </div> 
