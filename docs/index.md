@@ -27,7 +27,7 @@ hide:
 - :lock: __Secure Systems Design__
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
-    [:octicons-arrow-right-24: Get started](research/secure-systems.md)
+    [:octicons-arrow-right-24: Get started](#)
 
 - :microscope: __Steganalysis__
     ---

@@ -16,17 +16,17 @@ title: Projects
 - :rocket: __Project 1__
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    [:octicons-arrow-right-24: Learn more](project1.md)
+    [:octicons-arrow-right-24: Learn more](template.md)
 
-- :shield: __Project 2__
+- :shield: __Project 2__S
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    [:octicons-arrow-right-24: Get started](project2.md)
+    [:octicons-arrow-right-24: Get started](template.md)
 
 - :gear: __Project 3__
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    [:octicons-arrow-right-24: Read more](project3.md)
+    [:octicons-arrow-right-24: Read more](template.md)
 
 </div>
 
@@ -38,13 +38,13 @@ title: Projects
   <div class="feature-card">
     <h3>Research Tool 1</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="research-tool1/" class="btn btn-outline">Learn More</a>
+    <a href="#" class="btn btn-outline">Learn More</a>
   </div>
   
   <div class="feature-card">
     <h3>Research Tool 2</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="research-tool2/" class="btn btn-outline">Learn More</a>
+    <a href="#" class="btn btn-outline">Learn More</a>
   </div>
 </div>
 
@@ -54,13 +54,13 @@ title: Projects
   <div class="feature-card">
     <h3>Security Tool 1</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="security-tool1/" class="btn btn-outline">Learn More</a>
+    <a href="#" class="btn btn-outline">Learn More</a>
   </div>
   
   <div class="feature-card">
     <h3>Security Tool 2</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="security-tool2/" class="btn btn-outline">Learn More</a>
+    <a href="#" class="btn btn-outline">Learn More</a>
   </div>
 </div>
 
@@ -112,6 +112,6 @@ For project support:
 - Contact the maintainers
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="/contact/" class="md-button md-button--primary">Contact Us</a>
+  <a href="contact.md" class="md-button md-button--primary">Contact Us</a>
   <a href="https://github.com/OCRG" class="md-button">GitHub</a>
 </div> 

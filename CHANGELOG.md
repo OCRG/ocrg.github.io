@@ -16,14 +16,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed project navigation structure to use single page instead of directory
 - Improved button styling to match terminal theme
 - Enhanced visual hierarchy with consistent color scheme
-- Fixed all contact page links to use correct URL structure (/contact/)
 
 ### Fixed
 - Restructured header override in `docs/overrides/main.html` to properly integrate the Tor banner using `{{ super() }}`. This resolves styling conflicts with the default theme header elements, particularly the GitHub repository link.
 - Fixed white text on white background in feature cards
 - Resolved navigation issues in projects section
 - Improved contrast and readability across all components
-- Fixed broken contact page links in all documentation files to use correct URL structure
 
 ### Deprecated
 - None

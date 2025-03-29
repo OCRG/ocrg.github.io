@@ -70,18 +70,18 @@ results = example.execute()
 
 For detailed documentation, please refer to:
 
-- [Installation Guide](installation.md)
-- [User Manual](manual.md)
-- [API Reference](api.md)
-- [Contributing Guide](contributing.md)
+- [Installation Guide](#)
+- [User Manual](#)
+- [API Reference](#)
+- [Contributing Guide](#)
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](contributing.md) for details.
+We welcome contributions! Please see our [Contributing Guide](#) for details.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](#) file for details.
 
 ## Support
 
@@ -92,6 +92,6 @@ For support, please:
 - Contact the maintainers
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://github.com/OCRG/project-name" class="md-button md-button--primary">GitHub Repository</a>
-  <a href="/contact/" class="md-button">Contact Us</a>
+  <a href="#" class="md-button md-button--primary">GitHub Repository</a>
+  <a href="/contact" class="md-button">Contact Us</a>
 </div> 
