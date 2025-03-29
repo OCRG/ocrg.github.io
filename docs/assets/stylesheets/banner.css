@@ -1,35 +1,34 @@
 /* Global banner styling */
 .md-banner {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     height: 32px;
-    background-color: #14151a;
-    color: var(--ocrg-blue);
+    background-color: var(--ocrg-terminal-black);
+    color: var(--ocrg-purple);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    z-index: 1;
-}
-
-/* Adjust main content and header to account for banner */
-.md-header {
-    top: 32px !important;
-}
-
-.md-main {
-    margin-top: 32px;
+    border-bottom: 1px solid var(--ocrg-terminal-border);
 }
 
 /* Style the Tor Browser link */
 .md-banner a {
-    color: var(--ocrg-blue);
+    color: var(--ocrg-purple);
     text-decoration: underline;
     margin: 0 4px;
 }
 
 .md-banner a:hover {
     color: rgba(255, 255, 255, 0.8);
+}
+
+/* Adjust header to include banner */
+.md-header {
+    background-color: var(--ocrg-terminal-black);
+    border-bottom: none;
+}
+
+/* Remove margin from main content since banner is part of header */
+.md-main {
+    margin-top: 0;
 } 

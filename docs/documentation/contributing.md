@@ -120,5 +120,4 @@ If you have any questions about contributing, please:
 - Ask in our [Discord server](https://discord.gg/6SDUxJzSdr)
 - Open an issue with your question
 - Contact us through our [Contact page](../contact.md)
-
 Thank you for contributing to OCRG projects! 

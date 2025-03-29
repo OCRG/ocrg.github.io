@@ -8,6 +8,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Customized footer with OCRG branding, styled links, and terminal theme matching
+
+### Changed
+- Updated feature card styling with terminal theme colors and hover effects
+- Added distinct gradient backgrounds for hero sections on different pages
+- Fixed project navigation structure to use single page instead of directory
+- Improved button styling to match terminal theme
+- Enhanced visual hierarchy with consistent color scheme
+
+### Fixed
+- Restructured header override in `docs/overrides/main.html` to properly integrate the Tor banner using `{{ super() }}`. This resolves styling conflicts with the default theme header elements, particularly the GitHub repository link.
+- Fixed white text on white background in feature cards
+- Resolved navigation issues in projects section
+- Improved contrast and readability across all components
+
+### Deprecated
+- None
+
+### Removed
+- None
+
+### Security
+- None
+
+## [0.0.3] - 2024-03-26
+
+### Added
 - Added global privacy banner promoting Tor Browser usage
 
 ### Changed
