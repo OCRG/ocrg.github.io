@@ -66,6 +66,6 @@ Join our community of researchers, practitioners, and enthusiasts. There are man
 - [Join our Discord server](https://discord.gg/6SDUxJzSdr)
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="documentation/getting-started.md" class="md-button md-button--primary">Get Started</a>
-  <a href="about.md" class="md-button">Learn More</a>
+  <a href="documentation/getting-started" class="md-button md-button--primary">Get Started</a>
+  <a href="about" class="md-button">Learn More</a>
 </div>

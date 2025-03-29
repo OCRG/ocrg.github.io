@@ -85,7 +85,8 @@ def find_external_links(content):
     for link in md_links + html_links:
         # Clean the link (remove trailing characters that aren't part of the URL)
         link = re.sub(r'[,\.;\)]$', '', link)
-        if is_valid_url(link):
+        # Skip internal MkDocs links (both with and without .md extension)
+        if not re.match(r'^[a-zA-Z0-9\-_/]+\.md?$', link) and is_valid_url(link):
             links.add(link)
     
     return links

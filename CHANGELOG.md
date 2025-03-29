@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed white text on white background in feature cards
 - Resolved navigation issues in projects section
 - Improved contrast and readability across all components
+- Fixed link checker to properly handle internal MkDocs links without .md extensions
 
 ### Deprecated
 - None

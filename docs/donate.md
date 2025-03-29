@@ -81,6 +81,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="contact.md" class="md-button md-button--primary">Contact Us</a>
+  <a href="contact" class="md-button md-button--primary">Contact Us</a>
   <a href="https://github.com/OCRG" class="md-button">GitHub</a>
 </div> 

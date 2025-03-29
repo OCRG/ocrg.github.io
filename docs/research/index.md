@@ -70,5 +70,5 @@ We welcome collaboration with:
 - Students interested in research
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="contact.md" class="btn btn-primary">Contact Us About Research</a>
+  <a href="contact" class="btn btn-primary">Contact Us About Research</a>
 </div> 

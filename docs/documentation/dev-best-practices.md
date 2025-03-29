@@ -182,3 +182,9 @@ Following these best practices ensures:
 - Clear project history and documentation
 
 Remember: The goal is to make development efficient, collaborative, and maintainable! 
+
+Other useful commands
+```
+git commit --amend --no-edit
+
+```
