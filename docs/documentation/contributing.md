@@ -44,7 +44,7 @@ We welcome code contributions through pull requests:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
-3. Write your code, following our [Development Best Practices](dev-best-practices.md).
+3. Write your code, following our [Development Best Practices](dev-best-practices.html).
 4. Add or update tests as needed.
 5. Ensure your code passes all tests.
 6. Submit a pull request with a clear description of the changes.
@@ -71,8 +71,8 @@ Helping review others' contributions is a valuable way to contribute:
 
 Before contributing code, please:
 
-1. Set up your development environment following our [Getting Started Guide](getting-started.md).
-2. Familiarize yourself with our [Development Best Practices](dev-best-practices.md).
+1. Set up your development environment following our [Getting Started Guide](getting-started.html).
+2. Familiarize yourself with our [Development Best Practices](dev-best-practices.html).
 3. Look for issues labeled "good first issue" if you're new to the project.
 
 ## Pull Request Process
@@ -119,5 +119,5 @@ If you have any questions about contributing, please:
 
 - Ask in our [Discord server](https://discord.gg/6SDUxJzSdr)
 - Open an issue with your question
-- Contact us through our [Contact page](../contact.md)
+- Contact us through our [Contact page](../contact.html)
 Thank you for contributing to OCRG projects! 

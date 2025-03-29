@@ -16,17 +16,17 @@ title: Projects
 - :rocket: __Project 1__
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    [:octicons-arrow-right-24: Learn more](template.md)
+    [:octicons-arrow-right-24: Learn more](template.html)
 
 - :shield: __Project 2__S
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    [:octicons-arrow-right-24: Get started](template.md)
+    [:octicons-arrow-right-24: Get started](template.html)
 
 - :gear: __Project 3__
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    [:octicons-arrow-right-24: Read more](template.md)
+    [:octicons-arrow-right-24: Read more](template.html)
 
 </div>
 
@@ -112,6 +112,6 @@ For project support:
 - Contact the maintainers
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="contact" class="md-button md-button--primary">Contact Us</a>
+  <a href="../contact.html" class="md-button md-button--primary">Contact Us</a>
   <a href="https://github.com/OCRG" class="md-button">GitHub</a>
 </div> 

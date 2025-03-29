@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Customized footer with OCRG branding, styled links, and terminal theme matching
+- Added custom 404 page with terminal theme styling
 
 ### Changed
 - Updated feature card styling with terminal theme colors and hover effects
@@ -16,6 +17,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed project navigation structure to use single page instead of directory
 - Improved button styling to match terminal theme
 - Enhanced visual hierarchy with consistent color scheme
+- Updated all internal links to use .html extension for use_directory_urls: false compatibility
+- Added 404 page to navigation menu
+- Updated link testing to enforce correct extensions based on use_directory_urls setting
+- Removed --strict flag from CI build to handle .html link extensions
+- Added documentation about link strategy in mkdocs.yml
 
 ### Fixed
 - Restructured header override in `docs/overrides/main.html` to properly integrate the Tor banner using `{{ super() }}`. This resolves styling conflicts with the default theme header elements, particularly the GitHub repository link.
@@ -23,6 +29,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Resolved navigation issues in projects section
 - Improved contrast and readability across all components
 - Fixed link checker to properly handle internal MkDocs links without .md extensions
+- Fixed 404 page links to use consistent .html extension format
+- Fixed HTML anchor tags in about.md, projects/index.md, and projects/template.md to use correct .html extensions
+- Fixed all Markdown links in documentation files to use .html extension for use_directory_urls: false compatibility
+- Fixed relative paths in project section links to correctly reference parent directory
 
 ### Deprecated
 - None
