@@ -9,6 +9,7 @@ repo_url: https://github.com/OCRG/ocrg.github.io
 # to ensure consistent URL structure in production. This diverges from MkDocs'
 # default behavior but is necessary for our deployment setup.
 use_directory_urls: false
+not_found_page: 404.md
 
 theme:
   name: material
@@ -82,7 +83,6 @@ nav:
     - Contributing: documentation/contributing.md
   - Contact: contact.md
   - Donate: donate.md
-  - 404: 404.md
 
 plugins:
   - search
