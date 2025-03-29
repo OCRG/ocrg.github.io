@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Customized footer with OCRG branding, styled links, and terminal theme matching
-- Added custom 404 page with terminal theme styling
+- Added custom 404 page with terminal theme styling, updated components on 404 page
 
 ### Changed
 - Updated feature card styling with terminal theme colors and hover effects
@@ -18,7 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved button styling to match terminal theme
 - Enhanced visual hierarchy with consistent color scheme
 - Updated all internal links to use .html extension for use_directory_urls: false compatibility
-- Added 404 page to navigation menu
 - Updated link testing to enforce correct extensions based on use_directory_urls setting
 - Removed --strict flag from CI build to handle .html link extensions
 - Added documentation about link strategy in mkdocs.yml
