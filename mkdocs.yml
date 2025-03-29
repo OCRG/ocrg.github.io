@@ -5,6 +5,9 @@ site_author: OCRG Team
 repo_url: https://github.com/OCRG/ocrg.github.io
 
 # Add 404 page configuration
+# Note: We use .html extensions in source files and use_directory_urls: false
+# to ensure consistent URL structure in production. This diverges from MkDocs'
+# default behavior but is necessary for our deployment setup.
 use_directory_urls: false
 
 theme:
