@@ -69,5 +69,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam
 <div style="text-align: center; margin: 2rem 0;">
   <a href="https://github.com/OCRG" class="md-button md-button--primary">GitHub</a>
   <a href="https://discord.gg/6SDUxJzSdr" class="md-button md-button--primary">Join our Discord</a>
-  <a href="contact.md" class="md-button">Contact Us</a>
+  <a href="contact" class="md-button">Contact Us</a>
 </div> 
