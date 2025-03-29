@@ -43,6 +43,7 @@ The built site will be in the `dist` directory.
 2. Create a new branch for your changes
 3. Make your changes
 4. Submit a pull request
+5. Important: **wait until all CI PASSES before requesting review.**
 
 ## License
 
