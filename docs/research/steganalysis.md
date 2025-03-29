@@ -77,5 +77,5 @@ We're seeking collaborators interested in:
 - Implementing practical steganalysis solutions
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="../../contact" class="btn btn-primary">Collaborate on Steganalysis Research</a>
+  <a href="/contact/" class="btn btn-primary">Collaborate on Steganalysis Research</a>
 </div> 

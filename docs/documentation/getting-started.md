@@ -94,6 +94,6 @@ If you have questions or need assistance:
 
 - Ask in the appropriate channel on our Discord server
 - Open an issue on the relevant GitHub repository
-- Contact us directly through our [Contact page](../contact.md)
+- Contact us directly through our [Contact page](/contact/)
 
 We're excited to have you join our community and look forward to your contributions! 

@@ -79,5 +79,5 @@ We're seeking collaborators interested in:
 - Researching novel approaches to emerging threat categories
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="../../contact" class="btn btn-primary">Collaborate on Threat Detection Research</a>
+  <a href="/contact/" class="btn btn-primary">Collaborate on Threat Detection Research</a>
 </div> 
