@@ -22,7 +22,7 @@ hide:
 - :shield: __Threat Detection__
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
-    [:octicons-arrow-right-24: Learn more](research/threat-detection.md)
+    [:octicons-arrow-right-24: Learn more](research/threat-detection.html)
 
 - :lock: __Secure Systems Design__
     ---
@@ -32,7 +32,7 @@ hide:
 - :microscope: __Steganalysis__
     ---
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
-    [:octicons-arrow-right-24: Read more](research/steganalysis.md)
+    [:octicons-arrow-right-24: Read more](research/steganalysis.html)
 
 </div>
 
@@ -61,11 +61,11 @@ hide:
 
 Join our community of researchers, practitioners, and enthusiasts. There are many ways to participate:
 
-- [Contribute to our projects](documentation/contributing.md)
-- [Participate in research](research/index.md)
+- [Contribute to our projects](documentation/contributing.html)
+- [Participate in research](research/index.html)
 - [Join our Discord server](https://discord.gg/6SDUxJzSdr)
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="documentation/getting-started" class="md-button md-button--primary">Get Started</a>
-  <a href="about" class="md-button">Learn More</a>
+  <a href="documentation/getting-started.html" class="md-button md-button--primary">Get Started</a>
+  <a href="about.html" class="md-button">Learn More</a>
 </div>

@@ -21,15 +21,15 @@ The first step in getting involved with OCRG is to join our community:
 
 To understand our current focus areas:
 
-1. Review our [Steganalysis Research](../research/steganalysis.md) to learn about our work in hidden data detection.
-2. Explore our [Threat Detection Research](../research/threat-detection.md) to understand our approaches to cybersecurity threat identification.
+1. Review our [Steganalysis Research](../research/steganalysis.html) to learn about our work in hidden data detection.
+2. Explore our [Threat Detection Research](../research/threat-detection.html) to understand our approaches to cybersecurity threat identification.
 
 ## Contributing to OCRG Projects
 
 If you're interested in contributing to our projects:
 
-1. Read our [Contributing Guide](contributing.md) for guidelines on code standards, pull requests, and development workflow.
-2. Follow our [Development Best Practices](dev-best-practices.md) to understand our approach to coding and version control.
+1. Read our [Contributing Guide](contributing.html) for guidelines on code standards, pull requests, and development workflow.
+2. Follow our [Development Best Practices](dev-best-practices.html) to understand our approach to coding and version control.
 3. Check our GitHub repositories for issues labeled "good first issue" to find beginner-friendly tasks.
 
 ## Setting Up Your Development Environment
@@ -94,6 +94,6 @@ If you have questions or need assistance:
 
 - Ask in the appropriate channel on our Discord server
 - Open an issue on the relevant GitHub repository
-- Contact us directly through our [Contact page](../contact.md)
+- Contact us directly through our [Contact page](../contact.html)
 
 We're excited to have you join our community and look forward to your contributions! 

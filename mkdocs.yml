@@ -4,6 +4,9 @@ site_description: Advancing cybersecurity through innovative research in threat 
 site_author: OCRG Team
 repo_url: https://github.com/OCRG/ocrg.github.io
 
+# Add 404 page configuration
+use_directory_urls: false
+
 theme:
   name: material
   palette:
@@ -76,6 +79,7 @@ nav:
     - Contributing: documentation/contributing.md
   - Contact: contact.md
   - Donate: donate.md
+  - 404: 404.md
 
 plugins:
   - search

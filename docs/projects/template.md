@@ -93,5 +93,5 @@ For support, please:
 
 <div style="text-align: center; margin: 2rem 0;">
   <a href="#" class="md-button md-button--primary">GitHub Repository</a>
-  <a href="/contact" class="md-button">Contact Us</a>
+  <a href="../contact.html" class="md-button">Contact Us</a>
 </div> 

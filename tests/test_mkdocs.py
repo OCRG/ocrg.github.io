@@ -85,21 +85,29 @@ class TestMkDocs:
 
     def test_no_broken_internal_links(self):
         """Test that there are no broken internal links in the Markdown files."""
+        # Load mkdocs config to check use_directory_urls setting
+        config = safe_load_yaml(self.config_file)
+        use_directory_urls = config.get('use_directory_urls', True)
+        
         # This pattern matches markdown links: [text](link)
         # but excludes links starting with http, https, mailto, etc.
         internal_link_pattern = re.compile(r'\[.*?\]\(((?!http|mailto)[^)]+)\)')
-    
+        
+        # Also match HTML anchor tags
+        html_link_pattern = re.compile(r'<a\s+(?:[^>]*?\s+)?href="((?!http|mailto)[^"]+)"')
+
         for md_file in self.docs_dir.glob('**/*.md'):
             with open(md_file, 'r') as f:
                 content = f.read()
-    
+            
+            # Check markdown links
             for match in internal_link_pattern.finditer(content):
                 link = match.group(1)
-    
-                # Skip anchor links
-                if link.startswith('#'):
+                
+                # Skip anchor links and external links
+                if link.startswith('#') or link.startswith('http'):
                     continue
-    
+                
                 # Handle relative links
                 if not link.startswith('/'):
                     # Get the directory of the current file
@@ -109,5 +117,41 @@ class TestMkDocs:
                     # Handle absolute links (within the docs directory)
                     link = link.lstrip('/')
                     link_path = self.docs_dir / link
-    
-                assert link_path.exists(), f"Broken internal link: {link} in {md_file}" 
+                
+                # Get the corresponding .md file path (without the extension)
+                md_path = link_path.with_suffix('.md')
+                
+                # First verify the target markdown file exists
+                assert md_path.exists(), f"Target markdown file does not exist for link: {link} in {md_file}"
+                
+                # If use_directory_urls is False, verify link uses .html extension
+                if not use_directory_urls:
+                    assert link.endswith('.html'), f"Link should use .html extension: {link} in {md_file}"
+            
+            # Check HTML anchor tags
+            for match in html_link_pattern.finditer(content):
+                link = match.group(1)
+                
+                # Skip anchor links and external links
+                if link.startswith('#') or link.startswith('http'):
+                    continue
+                
+                # Handle relative links
+                if not link.startswith('/'):
+                    # Get the directory of the current file
+                    base_dir = md_file.parent.relative_to(self.docs_dir)
+                    link_path = self.docs_dir / base_dir / link
+                else:
+                    # Handle absolute links (within the docs directory)
+                    link = link.lstrip('/')
+                    link_path = self.docs_dir / link
+                
+                # Get the corresponding .md file path (without the extension)
+                md_path = link_path.with_suffix('.md')
+                
+                # First verify the target markdown file exists
+                assert md_path.exists(), f"Target markdown file does not exist for link: {link} in {md_file}"
+                
+                # If use_directory_urls is False, verify link uses .html extension
+                if not use_directory_urls:
+                    assert link.endswith('.html'), f"Link should use .html extension: {link} in {md_file}" 

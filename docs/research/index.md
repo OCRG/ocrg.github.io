@@ -19,19 +19,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam
   <div class="feature-card">
     <h3>Research Area 1</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p>
-    <a href="area1/" class="btn btn-outline">Learn More</a>
+    <a href="#" class="btn btn-outline">Learn More</a>
   </div>
   
   <div class="feature-card">
     <h3>Research Area 2</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p>
-    <a href="area2/" class="btn btn-outline">Learn More</a>
+    <a href="#" class="btn btn-outline">Learn More</a>
   </div>
 
   <div class="feature-card">
     <h3>Research Area 3</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p>
-    <a href="area3/" class="btn btn-outline">Learn More</a>
+    <a href="#" class="btn btn-outline">Learn More</a>
   </div>
 </div>
 
@@ -70,5 +70,5 @@ We welcome collaboration with:
 - Students interested in research
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="contact" class="btn btn-primary">Contact Us About Research</a>
+  <a href="../contact.html" class="btn btn-primary">Contact Us About Research</a>
 </div> 
