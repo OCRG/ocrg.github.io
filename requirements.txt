@@ -9,5 +9,5 @@ pillow>=9.0
 # Test dependencies
 pytest==8.0.0
 pytest-cov==4.1.0
-requests==2.31.0
+requests==2.32.2
 pyyaml==6.0.1 
