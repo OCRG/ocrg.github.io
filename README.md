@@ -45,6 +45,8 @@ The built site will be in the `dist` directory.
 4. Submit a pull request
 5. Important: **wait until all CI PASSES before requesting review.**
 
+For detailed contributing guidelines, see our [Contributing Documentation](https://ocrg.github.io/documentation/contributing.html).
+
 ## License
 
 This documentation is licensed under the MIT License - see the LICENSE file for details.
