@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated link testing to enforce correct extensions based on use_directory_urls setting
 - Removed --strict flag from CI build to handle .html link extensions
 - Added documentation about link strategy in mkdocs.yml
+- Consolidated contributing guidelines into single source of truth and updated README link
 
 ### Fixed
 - Restructured header override in `docs/overrides/main.html` to properly integrate the Tor banner using `{{ super() }}`. This resolves styling conflicts with the default theme header elements, particularly the GitHub repository link.
