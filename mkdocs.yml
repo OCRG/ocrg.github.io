@@ -68,6 +68,8 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
+  - toc:
+      permalink: "#" 
 
 nav:
   - Home: index.md

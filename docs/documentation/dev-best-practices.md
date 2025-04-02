@@ -30,7 +30,8 @@ We follow a trunk-based development workflow, which means:
 ### Branching Strategy
 
 1. **Main Branch**: The `main` branch is the primary branch and is always deployable.
-2. **Feature Branches**: Create a feature branch for each new feature or bug fix:
+2. **Production Branch**: The `gh-pages` branch contains the built site and is automatically updated when changes are merged to `main`.
+3. **Feature Branches**: Create a feature branch for each new feature or bug fix:
    ```bash
    # Create and switch to a new branch
    git checkout -b feature/descriptive-feature-name
@@ -54,7 +55,7 @@ We follow a trunk-based development workflow, which means:
    git merge main
    ```
 
-3. **Naming Conventions**: Use prefixes for branch names:
+4. **Naming Conventions**: Use prefixes for branch names:
    - `feature/` for new features
    - `bugfix/` for bug fixes
    - `hotfix/` for urgent production fixes
@@ -150,7 +151,11 @@ We use GitHub Actions for continuous integration and deployment:
 
 1. **Automated Tests** run on every push and PR
 2. **Build Process** creates production-ready assets
-3. **Deployment** happens automatically when changes are merged to main
+3. **Deployment** happens automatically when changes are merged to main:
+   - The site is built using MkDocs
+   - The built site is deployed to the `gh-pages` branch
+   - The deployment only occurs on merges to `main`, not on PRs
+   - The `gh-pages` branch is automatically updated with the latest build
 
 ### Release Process
 
@@ -186,5 +191,3 @@ Remember: The goal is to make development efficient, collaborative, and maintain
 Other useful commands
 ```
 git commit --amend --no-edit
-
-```

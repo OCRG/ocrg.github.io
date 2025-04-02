@@ -18,27 +18,98 @@ We expect all contributors to adhere to our Code of Conduct, which promotes a re
 
 ## How to Contribute
 
-There are many ways to contribute to OCRG projects:
+There are many ways to contribute to OCRG projects. Before creating any issue or pull request, please review our issue guidelines and labels below.
 
-### 1. Report Bugs
+### Creating Issues
+
+All issues (bugs, enhancements, questions) should follow our standard format and labeling system.
+
+#### Issue Labels
+
+We use labels to categorize and prioritize issues. When creating an issue, consider these common labels:
+
+| Category | Label | Description |
+|----------|--------|-------------|
+| **Type** | `⚠️ bug` | Something isn't working |
+| | `enhancement` | New feature or request |
+| | `documentation` | Improvements or additions to documentation |
+| | `question` | Further information is requested |
+| | `process` | For improving development or project management workflows |
+| **Priority** | `🔥 priority: high` | Critical issues needing immediate attention |
+| | `⚠️ priority: medium` | Standard priority for most issues |
+| | `priority: low` | Less urgent issues, can be handled when time allows |
+| **Status** | `status: needs-triage` | New issues that need review and labeling |
+| | `status: in-progress` | Actively being worked on |
+| | `status: needs-review` | Completed work (usually a PR) is ready for review |
+| | `status: backlog` | This issue will be saved for later |
+| **Area** | `area: github-pages` | This issue relates to the OCRG GitHub Pages site |
+| **Special** | `✅ good first issue` | Good for newcomers |
+| | `help wanted` | Extra attention is needed |
+| | `dependencies` | Pull requests that update a dependency file |
+| | `markdown/html` | Pull requests that update markdown |
+
+#### Issue Template
+
+When creating any issue, use this template as a starting point:
+
+```markdown
+# Issue Title
+Clear, concise title that describes the problem or request
+
+## Description
+Detailed information about the issue:
+
+### For Bugs
+- Steps to reproduce:
+  1. Step one
+  2. Step two
+  3. Step three
+- Expected behavior: What should happen
+- Actual behavior: What actually happens
+- Environment details:
+  - OS: [e.g., Windows 10, macOS 13.0]
+  - Browser: [e.g., Chrome 120.0]
+  - Version: [e.g., v1.2.3]
+
+### For Enhancements
+- Problem: What problem does this solve?
+- Solution: How would you solve it?
+- Benefits: Why would this be useful?
+
+### Additional Information
+- Screenshots: [if applicable]
+- Error messages: [if applicable]
+- Related issues: [if any]
+```
+
+### Types of Issues
+
+#### Bug Reports
 
 If you find a bug in any of our projects:
 
-1. Check if the bug has already been reported in the project's issue tracker.
-2. If not, create a new issue with a clear title and description.
-3. Include steps to reproduce the bug, expected behavior, and actual behavior.
-4. Add screenshots or error messages if applicable.
+1. Check if the bug has already been reported in the project's issue tracker
+2. If not, create a new issue using our template
+3. Be sure to include:
+   - Clear steps to reproduce
+   - Expected vs actual behavior
+   - Environment details
+   - Any relevant screenshots or error messages
+4. Add the `⚠️ bug` label and appropriate priority/status labels
 
-### 2. Suggest Enhancements
+#### Enhancement Suggestions
 
 Have an idea for improving our projects?
 
-1. Check if the enhancement has already been suggested in the project's issue tracker.
-2. If not, create a new issue with a clear title and description of the enhancement.
-3. Explain why this enhancement would be useful to most users.
-4. Provide examples of how the enhancement would work.
+1. Check if the enhancement has already been suggested
+2. Create a new issue using our template
+3. Focus on:
+   - The problem you're trying to solve
+   - Your proposed solution
+   - Benefits to users
+4. Add the `enhancement` label and appropriate priority/status labels
 
-### 3. Contribute Code
+### Code Contributions
 
 We welcome code contributions through pull requests:
 
@@ -49,7 +120,7 @@ We welcome code contributions through pull requests:
 5. Ensure your code passes all tests.
 6. Submit a pull request with a clear description of the changes.
 
-### 4. Improve Documentation
+### Documentation Improvements
 
 Documentation improvements are always appreciated:
 
@@ -58,7 +129,7 @@ Documentation improvements are always appreciated:
 3. Make your changes, ensuring clarity and accuracy.
 4. Submit a pull request with a description of the improvements.
 
-### 5. Review Pull Requests
+### Reviewing Pull Requests
 
 Helping review others' contributions is a valuable way to contribute:
 
