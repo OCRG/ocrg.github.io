@@ -615,45 +615,93 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-report-bugs" class="md-nav__link">
+  <a href="#creating-issues" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Report Bugs
+      Creating Issues
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#issue-labels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue Labels
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-suggest-enhancements" class="md-nav__link">
+  <a href="#issue-template" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Suggest Enhancements
+      Issue Template
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#types-of-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types of Issues
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types of Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bug-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bug Reports
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-contribute-code" class="md-nav__link">
+  <a href="#enhancement-suggestions" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Contribute Code
+      Enhancement Suggestions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-contributions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Contributions
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-improve-documentation" class="md-nav__link">
+  <a href="#documentation-improvements" class="md-nav__link">
     <span class="md-ellipsis">
-      4. Improve Documentation
+      Documentation Improvements
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-review-pull-requests" class="md-nav__link">
+  <a href="#reviewing-pull-requests" class="md-nav__link">
     <span class="md-ellipsis">
-      5. Review Pull Requests
+      Reviewing Pull Requests
     </span>
   </a>
   
@@ -820,9 +868,9 @@
   
 
 
-<h1 id="contributing-to-ocrg-projects">Contributing to OCRG Projects</h1>
+<h1 id="contributing-to-ocrg-projects">Contributing to OCRG Projects<a class="headerlink" href="#contributing-to-ocrg-projects" title="Permanent link">#</a></h1>
 <p>Thank you for your interest in contributing to the Ozark Cybersecurity Research Group! This guide will help you get started with contributing to our projects.</p>
-<h2 id="code-of-conduct">Code of Conduct</h2>
+<h2 id="code-of-conduct">Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permanent link">#</a></h2>
 <p>We expect all contributors to adhere to our Code of Conduct, which promotes a respectful and inclusive community. In summary:</p>
 <ul>
 <li>Be respectful and inclusive toward others</li>
@@ -831,25 +879,163 @@
 <li>Focus on what's best for the community</li>
 <li>Show empathy towards other community members</li>
 </ul>
-<h2 id="how-to-contribute">How to Contribute</h2>
-<p>There are many ways to contribute to OCRG projects:</p>
-<h3 id="1-report-bugs">1. Report Bugs</h3>
+<h2 id="how-to-contribute">How to Contribute<a class="headerlink" href="#how-to-contribute" title="Permanent link">#</a></h2>
+<p>There are many ways to contribute to OCRG projects. Before creating any issue or pull request, please review our issue guidelines and labels below.</p>
+<h3 id="creating-issues">Creating Issues<a class="headerlink" href="#creating-issues" title="Permanent link">#</a></h3>
+<p>All issues (bugs, enhancements, questions) should follow our standard format and labeling system.</p>
+<h4 id="issue-labels">Issue Labels<a class="headerlink" href="#issue-labels" title="Permanent link">#</a></h4>
+<p>We use labels to categorize and prioritize issues. When creating an issue, consider these common labels:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Label</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Type</strong></td>
+<td><code>⚠️ bug</code></td>
+<td>Something isn't working</td>
+</tr>
+<tr>
+<td></td>
+<td><code>enhancement</code></td>
+<td>New feature or request</td>
+</tr>
+<tr>
+<td></td>
+<td><code>documentation</code></td>
+<td>Improvements or additions to documentation</td>
+</tr>
+<tr>
+<td></td>
+<td><code>question</code></td>
+<td>Further information is requested</td>
+</tr>
+<tr>
+<td></td>
+<td><code>process</code></td>
+<td>For improving development or project management workflows</td>
+</tr>
+<tr>
+<td><strong>Priority</strong></td>
+<td><code>🔥 priority: high</code></td>
+<td>Critical issues needing immediate attention</td>
+</tr>
+<tr>
+<td></td>
+<td><code>⚠️ priority: medium</code></td>
+<td>Standard priority for most issues</td>
+</tr>
+<tr>
+<td></td>
+<td><code>priority: low</code></td>
+<td>Less urgent issues, can be handled when time allows</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td><code>status: needs-triage</code></td>
+<td>New issues that need review and labeling</td>
+</tr>
+<tr>
+<td></td>
+<td><code>status: in-progress</code></td>
+<td>Actively being worked on</td>
+</tr>
+<tr>
+<td></td>
+<td><code>status: needs-review</code></td>
+<td>Completed work (usually a PR) is ready for review</td>
+</tr>
+<tr>
+<td></td>
+<td><code>status: backlog</code></td>
+<td>This issue will be saved for later</td>
+</tr>
+<tr>
+<td><strong>Area</strong></td>
+<td><code>area: github-pages</code></td>
+<td>This issue relates to the OCRG GitHub Pages site</td>
+</tr>
+<tr>
+<td><strong>Special</strong></td>
+<td><code>✅ good first issue</code></td>
+<td>Good for newcomers</td>
+</tr>
+<tr>
+<td></td>
+<td><code>help wanted</code></td>
+<td>Extra attention is needed</td>
+</tr>
+<tr>
+<td></td>
+<td><code>dependencies</code></td>
+<td>Pull requests that update a dependency file</td>
+</tr>
+<tr>
+<td></td>
+<td><code>markdown/html</code></td>
+<td>Pull requests that update markdown</td>
+</tr>
+</tbody>
+</table>
+<h4 id="issue-template">Issue Template<a class="headerlink" href="#issue-template" title="Permanent link">#</a></h4>
+<p>When creating any issue, use this template as a starting point:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="gh"># Issue Title</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>Clear, concise title that describes the problem or request
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="gu">## Description</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Detailed information about the issue:
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="gu">### For Bugs</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="k">-</span><span class="w"> </span>Steps to reproduce:
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">  </span><span class="k">1.</span> Step one
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">  </span><span class="k">2.</span> Step two
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">  </span><span class="k">3.</span> Step three
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="k">-</span><span class="w"> </span>Expected behavior: What should happen
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">-</span><span class="w"> </span>Actual behavior: What actually happens
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="k">-</span><span class="w"> </span>Environment details:
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">  </span><span class="k">-</span><span class="w"> </span>OS: [e.g., Windows 10, macOS 13.0]
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">  </span><span class="k">-</span><span class="w"> </span>Browser: [e.g., Chrome 120.0]
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">  </span><span class="k">-</span><span class="w"> </span>Version: [e.g., v1.2.3]
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="gu">### For Enhancements</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="k">-</span><span class="w"> </span>Problem: What problem does this solve?
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="k">-</span><span class="w"> </span>Solution: How would you solve it?
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="k">-</span><span class="w"> </span>Benefits: Why would this be useful?
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="gu">### Additional Information</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="k">-</span><span class="w"> </span>Screenshots: [if applicable]
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="k">-</span><span class="w"> </span>Error messages: [if applicable]
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="k">-</span><span class="w"> </span>Related issues: [if any]
+</code></pre></div>
+<h3 id="types-of-issues">Types of Issues<a class="headerlink" href="#types-of-issues" title="Permanent link">#</a></h3>
+<h4 id="bug-reports">Bug Reports<a class="headerlink" href="#bug-reports" title="Permanent link">#</a></h4>
 <p>If you find a bug in any of our projects:</p>
 <ol>
-<li>Check if the bug has already been reported in the project's issue tracker.</li>
-<li>If not, create a new issue with a clear title and description.</li>
-<li>Include steps to reproduce the bug, expected behavior, and actual behavior.</li>
-<li>Add screenshots or error messages if applicable.</li>
+<li>Check if the bug has already been reported in the project's issue tracker</li>
+<li>If not, create a new issue using our template</li>
+<li>Be sure to include:</li>
+<li>Clear steps to reproduce</li>
+<li>Expected vs actual behavior</li>
+<li>Environment details</li>
+<li>Any relevant screenshots or error messages</li>
+<li>Add the <code>⚠️ bug</code> label and appropriate priority/status labels</li>
 </ol>
-<h3 id="2-suggest-enhancements">2. Suggest Enhancements</h3>
+<h4 id="enhancement-suggestions">Enhancement Suggestions<a class="headerlink" href="#enhancement-suggestions" title="Permanent link">#</a></h4>
 <p>Have an idea for improving our projects?</p>
 <ol>
-<li>Check if the enhancement has already been suggested in the project's issue tracker.</li>
-<li>If not, create a new issue with a clear title and description of the enhancement.</li>
-<li>Explain why this enhancement would be useful to most users.</li>
-<li>Provide examples of how the enhancement would work.</li>
+<li>Check if the enhancement has already been suggested</li>
+<li>Create a new issue using our template</li>
+<li>Focus on:</li>
+<li>The problem you're trying to solve</li>
+<li>Your proposed solution</li>
+<li>Benefits to users</li>
+<li>Add the <code>enhancement</code> label and appropriate priority/status labels</li>
 </ol>
-<h3 id="3-contribute-code">3. Contribute Code</h3>
+<h3 id="code-contributions">Code Contributions<a class="headerlink" href="#code-contributions" title="Permanent link">#</a></h3>
 <p>We welcome code contributions through pull requests:</p>
 <ol>
 <li>Fork the repository.</li>
@@ -859,7 +1045,7 @@
 <li>Ensure your code passes all tests.</li>
 <li>Submit a pull request with a clear description of the changes.</li>
 </ol>
-<h3 id="4-improve-documentation">4. Improve Documentation</h3>
+<h3 id="documentation-improvements">Documentation Improvements<a class="headerlink" href="#documentation-improvements" title="Permanent link">#</a></h3>
 <p>Documentation improvements are always appreciated:</p>
 <ol>
 <li>Fork the repository.</li>
@@ -867,7 +1053,7 @@
 <li>Make your changes, ensuring clarity and accuracy.</li>
 <li>Submit a pull request with a description of the improvements.</li>
 </ol>
-<h3 id="5-review-pull-requests">5. Review Pull Requests</h3>
+<h3 id="reviewing-pull-requests">Reviewing Pull Requests<a class="headerlink" href="#reviewing-pull-requests" title="Permanent link">#</a></h3>
 <p>Helping review others' contributions is a valuable way to contribute:</p>
 <ol>
 <li>Read the pull request description and understand the purpose of the changes.</li>
@@ -875,14 +1061,14 @@
 <li>Provide constructive feedback and suggestions.</li>
 <li>Approve the pull request if it meets the project's standards.</li>
 </ol>
-<h2 id="getting-started-with-development">Getting Started with Development</h2>
+<h2 id="getting-started-with-development">Getting Started with Development<a class="headerlink" href="#getting-started-with-development" title="Permanent link">#</a></h2>
 <p>Before contributing code, please:</p>
 <ol>
 <li>Set up your development environment following our <a href="getting-started.html">Getting Started Guide</a>.</li>
 <li>Familiarize yourself with our <a href="dev-best-practices.html">Development Best Practices</a>.</li>
 <li>Look for issues labeled "good first issue" if you're new to the project.</li>
 </ol>
-<h2 id="pull-request-process">Pull Request Process</h2>
+<h2 id="pull-request-process">Pull Request Process<a class="headerlink" href="#pull-request-process" title="Permanent link">#</a></h2>
 <ol>
 <li><strong>Fork &amp; Branch:</strong> Fork the repository and create a branch for your changes.</li>
 <li><strong>Make Changes:</strong> Implement your changes, following our coding standards.</li>
@@ -892,33 +1078,33 @@
 <li><strong>Review:</strong> Address any feedback from code reviews.</li>
 <li><strong>Merge:</strong> Once approved, your PR will be merged.</li>
 </ol>
-<h2 id="style-guides">Style Guides</h2>
-<h3 id="git-commit-messages">Git Commit Messages</h3>
+<h2 id="style-guides">Style Guides<a class="headerlink" href="#style-guides" title="Permanent link">#</a></h2>
+<h3 id="git-commit-messages">Git Commit Messages<a class="headerlink" href="#git-commit-messages" title="Permanent link">#</a></h3>
 <ul>
 <li>Use the present tense ("Add feature" not "Added feature")</li>
 <li>Use the imperative mood ("Move cursor to..." not "Moves cursor to...")</li>
 <li>Limit the first line to 72 characters or less</li>
 <li>Reference issues and pull requests after the first line</li>
 </ul>
-<h3 id="python-style-guide">Python Style Guide</h3>
+<h3 id="python-style-guide">Python Style Guide<a class="headerlink" href="#python-style-guide" title="Permanent link">#</a></h3>
 <ul>
 <li>Follow <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> style guide</li>
 <li>Use docstrings following <a href="https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings">Google's style guide</a></li>
 <li>Run code through flake8 or a similar linter</li>
 </ul>
-<h3 id="javascript-style-guide">JavaScript Style Guide</h3>
+<h3 id="javascript-style-guide">JavaScript Style Guide<a class="headerlink" href="#javascript-style-guide" title="Permanent link">#</a></h3>
 <ul>
 <li>Follow the <a href="https://github.com/airbnb/javascript">Airbnb JavaScript Style Guide</a></li>
 <li>Use ESLint with our configuration</li>
 </ul>
-<h2 id="recognition">Recognition</h2>
+<h2 id="recognition">Recognition<a class="headerlink" href="#recognition" title="Permanent link">#</a></h2>
 <p>Contributors are recognized in several ways:</p>
 <ul>
 <li>Listed in the project's contributors section</li>
 <li>Mentioned in release notes for significant contributions</li>
 <li>Potential invitation to become a project maintainer after sustained contributions</li>
 </ul>
-<h2 id="questions">Questions?</h2>
+<h2 id="questions">Questions?<a class="headerlink" href="#questions" title="Permanent link">#</a></h2>
 <p>If you have any questions about contributing, please:</p>
 <ul>
 <li>Ask in our <a href="https://discord.gg/6SDUxJzSdr">Discord server</a></li>
