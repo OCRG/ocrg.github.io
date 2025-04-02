@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Customized footer with OCRG branding, styled links, and terminal theme matching
 - Added custom 404 page with terminal theme styling, updated components on 404 page
+- Added comprehensive issue documentation and label system to contributing guidelines
 
 ### Changed
 - Updated feature card styling with terminal theme colors and hover effects
@@ -22,7 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed --strict flag from CI build to handle .html link extensions
 - Added documentation about link strategy in mkdocs.yml
 - Consolidated contributing guidelines into single source of truth and updated README link
-- Enhanced development best practices with detailed branch strategy and deployment process documentation
 
 ### Fixed
 - Restructured header override in `docs/overrides/main.html` to properly integrate the Tor banner using `{{ super() }}`. This resolves styling conflicts with the default theme header elements, particularly the GitHub repository link.
