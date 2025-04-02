@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- None
+
+### Changed
+- None
+
+### Fixed
+- None
+
+### Deprecated
+- None
+
+### Removed
+- None
+
+### Security
+- None
+
+## [0.0.4-alpha] - 2024-04-02
+
+### Added
 - Customized footer with OCRG branding, styled links, and terminal theme matching
 - Added custom 404 page with terminal theme styling, updated components on 404 page
 - Added comprehensive issue documentation and label system to contributing guidelines
@@ -44,7 +64,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - None
 
-## [0.0.3] - 2024-03-26
+## [0.0.3-alpha] - 2024-03-26
 
 ### Added
 - Added global privacy banner promoting Tor Browser usage
@@ -66,7 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - None
 
-## [0.0.2] - 2024-03-24
+## [0.0.2-alpha] - 2024-03-24
 ### Changed
 - Improved GitHub Actions workflow for better CI/CD compatibility
 - Enhanced Vite configuration for CI environments
@@ -75,7 +95,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Addressed Rollup dependency issues in GitHub Actions
 - Fixed build failures related to optional native dependencies
 
-## [0.0.1] - 2024-03-24
+## [0.0.1-alpha] - 2024-03-24 (unreleased, refactored)
 ### Changed
 - Migrated from Jekyll to Vite with React and TypeScript
 - Updated dependencies to ensure compatibility
