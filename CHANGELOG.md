@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Customized footer with OCRG branding, styled links, and terminal theme matching
 - Added custom 404 page with terminal theme styling, updated components on 404 page
+- Added comprehensive issue documentation and label system to contributing guidelines
 
 ### Changed
 - Updated feature card styling with terminal theme colors and hover effects
